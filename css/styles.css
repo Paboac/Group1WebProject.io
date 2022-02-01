@@ -1,6 +1,4 @@
-@import url('fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
+@import url('http://fonts.googleapis.com/css2?family=Open+Sans);
 * {
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -37,7 +35,7 @@ h1.test {
     width: 30%;
     height: 30%;
     transform: translate(50%, -50%);
-    font-family: 'Roboto';
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #FFA500;
 }
