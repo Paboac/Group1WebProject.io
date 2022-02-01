@@ -25,13 +25,13 @@ section.header {
     display: block;
     width: 30%;
     height: 30%;
-    transform: translate(-50%, -50%);
+    /*transform: translate(-50%, -50%);*/
 }
 
 h1.test {
     display: inline-block;
-    width: 100%;
-    height: 100%;
+    /*width: 100%;
+    height: 100%;*/
     font-family: 'Supermercado One', cursive;
     font-weight: 400;
     font-size: 2em;
