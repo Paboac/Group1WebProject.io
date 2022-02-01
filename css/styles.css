@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 
-h1#test {
+h1.test {
     display: block;
     width: 30%;
     height: 30%;
