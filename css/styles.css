@@ -20,6 +20,15 @@ body {
     padding: 0;
 }
 
+section {
+    display: block;
+     transform: translate(50%, -50%);
+     width: 30%;
+    height: 30%;
+    background-color: #00008B;
+}
+    
+
 h1.test {
     display: block;
     width: 30%;
