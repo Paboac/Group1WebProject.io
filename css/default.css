@@ -37,3 +37,26 @@ h1.test {
     font-size: 2em;
     color: #FFA500;
 }
+html, body {
+    background-color: #fbfdff;
+}
+.active {
+    background-color: #c1dafe
+}
+.pointer {
+    cursor: pointer;
+}
+.inactive:hover {
+    transition: all .125s ease-in-out;
+    background-color: #c1dafe
+}
+.inactive {
+    transition: all .125s ease-in-out;
+    background-color: white
+}
+.bold {
+    font-weight: bold;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
