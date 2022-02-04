@@ -279,3 +279,11 @@ html, body {
 .ml-2 {
     margin-left: 2rem;
 }
+.d-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
