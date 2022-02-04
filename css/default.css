@@ -255,3 +255,27 @@ h1.test {
     color: #FFA500;
     /*background-color: #00008B;*/
 }
+
+html, body {
+    background-color: #fbfdff;
+}
+.active {
+    background-color: #c1dafe
+}
+.pointer {
+    cursor: pointer;
+}
+.inactive:hover {
+    transition: all .125s ease-in-out;
+    background-color: #c1dafe
+}
+.inactive {
+    transition: all .125s ease-in-out;
+    background-color: white
+}
+.bold {
+    font-weight: bold;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
