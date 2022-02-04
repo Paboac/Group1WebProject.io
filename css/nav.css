@@ -1,6 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 * {
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    background-color: #392e3a;
+    ;
+    width: 100%;
+    height: 54px;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav ul.topnav li {
+    text-align: center;
+}
+
+nav ul.topnav li a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fbfdff;
+    background-color: #392e3a;
+    ;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav {
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+}
+
+
+/* change background color of links on hover */
+
+nav ul.topnav li a:not(.selected):hover {
+    background-color: #fbfdff;
+    color: #392e3a;
+}
+
+
+/* add border inside navigation on selected page link */
+
+nav ul.topnav li a.selected {
+    background-color: #555555;
+    padding: 11px 13px;
+    margin: 2px;
 }
